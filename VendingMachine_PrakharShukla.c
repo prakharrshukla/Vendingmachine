@@ -4,7 +4,7 @@
 #include <stdlib.h>
 #include <time.h>
 
-// Admin password for maintenance access
+// Admin password 
 int password = 1769;
 
 // Minimum stock thresholds for alerts
@@ -15,12 +15,12 @@ int password = 1769;
 // Tracks total sales money
 float total_amount = 0.0;
 
-// Product quantities - initial stock of 10 each
+// Product quantities 
 int quantity_ME = 10;    // Monster Energy quantity
 int quantity_RB = 10;    // Red Bull quantity
 int quantity_ZC = 10;    // Zero Cola quantity
 
-// Product prices in AED (Arab Emirates Dirham)
+// Product prices 
 float price_ME = 2.50;    // price of Monster Energy
 float price_RB = 3.00;    // price of Red Bull
 float price_ZC = 3.50;    // price of Zero Cola
@@ -307,4 +307,5 @@ int main(void) {
                 printf("Invalid choice! Please enter 1, 2, or 3.\n");
         }
     }
+
 }
